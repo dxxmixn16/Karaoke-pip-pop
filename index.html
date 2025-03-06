@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El karaoke de pip y pop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Bienvenido al Karaoke de Pip y pop</h1>
@@ -11,19 +12,19 @@
     <form id="song_form">
        
         <label for="song_name">Nombre de la canción</label>
-            <br><br>
+            <br>
         <input id="song_name" type="text">
-            <br>
+            <br><br>
         <label for="song_url">Nombre de el artista</label>
-            <br><br>
+            <br>
         <input id="song_artist" type="text">
-            <br>
-        <label for="song_artist">Link de la cancion</label>
             <br><br>
-        <input id="song_url" type="url">
+        <label for="song_artist">Link de la cancion</label>
             <br>
+        <input id="song_url" type="url">
+            <br><br>
  
-        <button type="submit">Agregar canción a la lista</button>
+        <button type="submit" onclick="scrollbars" >Agregar canción a la lista</button>
     </form>
  
     <h3>Lista de reproducción</h3>
